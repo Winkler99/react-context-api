@@ -21,9 +21,6 @@ function App() {
         if(localStorage.getItem("theme")==='dark'){
             setTheme('dark');
         }
-        else if(localStorage.getItem("theme")==='light'){
-            setTheme('light');
-        }
         else{
             setTheme('light');
         }
